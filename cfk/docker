@@ -1,0 +1,4 @@
+FROM confluentinc/cp-server-connect:7.7.1
+ADD ./cfkcluster/cfk/plugins /usr/share/java/connectors
+
+USER 1001
